@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="You've done it! Congratulations, you've reached the end of the Penetration Tester Job Role Path. This is no easy feat, and we know it has been a long journey full of many challenges, but hopefully, you have learned loads (or picked up new skills) along the way. As mentioned in the Penetration Testing Process module, the path was split into 27 modules to present a penetration test against the fictional organization, Inlanefreight, piece by piece, phase by phase, tool by tool. We structured the path based on the most important stages of the penetration testing process."
+            android:textSize="20dp"
+            />
+
+    </ScrollView>
+</LinearLayout>
